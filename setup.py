@@ -4,13 +4,13 @@ import codecs, os, pathlib
 
 HERE = pathlib.Path(__file__).parent
 
-VERSION = '0.0.1'
+VERSION = '0.0.2'
 DESCRIPTION = 'YOUR DESCRIPTION HERE'
 LONG_DESCRIPTION = (HERE/"README.md").read_text()
 
 # Setting up
 setup(
-    name="PACKAGE NAME",
+    name="yoshi_simple_temp",
     version=VERSION,
     author="Yoshi Bansal",
     author_email="<bansalyoshi@gmail.com>",
